@@ -1,9 +1,14 @@
+import logo from '../assets/logos/savremena-logo-white.svg'
+
 function Header({ isMenuOpen, onMenuToggle }) {
   return (
     <header className="site-header">
       <a className="site-header__brand" href="/" aria-label="Savremena">
-        <span className="site-header__logo-mark">S</span>
-        <span className="site-header__logo-text">Savremena</span>
+        <img
+          className="site-header__logo"
+          src={logo}
+          alt="Savremena gimnazija"
+        />
       </a>
 
       <button

@@ -37,7 +37,7 @@ function App() {
           <p className="hero__eyebrow">5.5. / Savremena</p>
 
           <h1 className="hero__title">
-            5.5.&nbsp; je vas dan odluke za čistu peticu!
+            5.5.&nbsp; je vaš dan odluke za čistu peticu!
           </h1>
 
           <p className="hero__text">
